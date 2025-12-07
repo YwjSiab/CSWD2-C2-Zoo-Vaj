@@ -1,0 +1,59 @@
+[
+    {
+      "id": 1,
+      "name": "Ellie",
+      "species": "Elephant",
+      "status": "Open",
+      "health": "Healthy",
+      "location": { "lat": 44.975, "lng": -93.263 },
+      "feedingSchedule": ["08:00", "14:00", "20:00"],
+      "maintenanceRecords": [
+        { "date": "2025-04-28", "task": "Clean enclosure" },
+        { "date": "2025-04-29", "task": "Check water level" }
+      ],
+        "image": "/images/ellie.png"
+    },
+    {
+      "id": 2,
+      "name": "Tony",
+      "species": "Tiger",
+      "status": "Closed",
+      "health": "Sick",
+      "location": { "lat": 44.976, "lng": -93.262 },
+      "feedingSchedule": ["09:00", "15:00", "21:00"],
+      "maintenanceRecords": [
+        { "date": "2025-04-28", "task": "Inspect fencing" },
+        { "date": "2025-04-30", "task": "Apply treatment" }
+      ],
+        "image": "/images/tony.png"
+    },
+    {
+      "id": 3,
+      "name": "Panda",
+      "species": "Panda",
+      "status": "Open",
+      "health": "Healthy",
+      "location": { "lat": 44.974, "lng": -93.261 },
+      "feedingSchedule": ["07:00", "13:00", "19:00"],
+      "maintenanceRecords": [
+        { "date": "2025-04-27", "task": "Replace bamboo" },
+        { "date": "2025-04-29", "task": "Sanitize habitat" }
+      ],
+        "image": "/images/panda.png"
+    },
+    {
+      "id": 4,
+      "name": "Leo",
+      "species": "Lion",
+      "status": "Open",
+      "health": "Healthy",
+      "location": { "lat": 44.973, "lng": -93.265 },
+      "feedingSchedule": ["08:30", "14:30", "20:30"],
+      "maintenanceRecords": [
+        { "date": "2025-04-28", "task": "Sharpen climbing logs" },
+        { "date": "2025-04-30", "task": "Repair viewing glass" }
+      ],
+        "image": "/images/leo.png"
+    }
+  ]
+  
