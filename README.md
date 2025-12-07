@@ -1,1 +1,1 @@
-# CSWD2-C2-Zoo-Vaj
+# CSWD2-Sprint-A2-Zoo-Vaj

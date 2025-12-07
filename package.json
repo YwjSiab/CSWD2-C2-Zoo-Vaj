@@ -1,0 +1,62 @@
+{
+  "name": "cswd2-sprint-a2-zoo-vaj",
+  "version": "1.0.0",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "test": "vitest",
+    "test:watch": "vitest --watch",
+    "test:run": "vitest run --coverage"
+  },
+    "engines": { 
+      "node": "20.x" 
+    },
+  "vitest": {
+    "environment": "jsdom",
+    "setupFiles": [
+      "./tests/setup.js"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.5",
+    "@babel/preset-env": "^7.28.5",
+    "@eslint/js": "^9.20.0",
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/jest-dom": "^6.9.1",
+    "babel-loader": "^10.0.0",
+    "copy-webpack-plugin": "^13.0.1",
+    "css-loader": "^7.1.2",
+    "eslint": "^9.38.0",
+    "eslint-webpack-plugin": "^5.0.2",
+    "globals": "^15.14.0",
+    "html-webpack-plugin": "^5.6.4",
+    "jsdom": "^27.0.1",
+    "mini-css-extract-plugin": "^2.9.4",
+    "vitest": "^3.2.4",
+    "webpack": "^5.102.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  },
+  "description": "",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YwjSiab/CSWD2-Sprint-A2-Zoo-Vaj.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YwjSiab/CSWD2-Sprint-A2-Zoo-Vaj/issues"
+  },
+  "homepage": "https://github.com/YwjSiab/CSWD2-Sprint-A2-Zoo-Vaj#readme"
+}
